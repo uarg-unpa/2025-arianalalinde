@@ -1,0 +1,41 @@
+
+    public class Pilaenteros{
+    private int [] elementos; // array para almacenar los elementos
+    private int cima;
+    private final int MAX =10; // Capacidad maxima de la cima
+
+    //inicializa el array y la cima
+    public Pilaenteros(){
+        elementos = new int[MAX]; // Crear el array
+        //commpletar: inicializar cima
+    }
+    //verifica si la pila esta vacia
+    public boolean estaVacia(){
+        //completar: devolver true si cima indica que la pila esta vacia
+        return false;
+    }
+    //verifica que la pila esta llena
+    public boolean estaLlena(){
+        //devolver true si cima esta en el limite del array
+        return false;
+    }
+    //agrega un elemento en la cima (push)
+    public void meter(int elem){
+        //completar: incrementar cima y asignar el elemento
+        cima++;
+            elementos[cima] = elem;
+        
+    }
+
+    // Saca y devuelve el elemento de la cima (pop)
+    public int sacar() {
+      
+            int aux = elementos[cima];
+            cima--;
+            return aux;
+        }
+
+}
+    } 
+
+}
