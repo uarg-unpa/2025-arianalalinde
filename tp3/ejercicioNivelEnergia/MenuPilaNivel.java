@@ -2,9 +2,9 @@ package tp3.ejercicioNivelEnergia;
 
 import java.util.Scanner;
 
-//Agregar nuevos niveles a la pila.
-//Mostrar el nivel que se encuentra en la cima de la pila.
-//Pedir al usuario un valor X y contar cuántas veces aparece en la pila.
+//Agregar nuevos niveles a la pila
+//Mostrar el nivel que se encuentra en la cima de la pila
+//Pedir al usuario un valor X y contar cuántas veces aparece en la pila
 
 public class MenuPilaNivel {
     public static void main(String[] args) {
