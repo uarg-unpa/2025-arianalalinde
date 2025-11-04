@@ -1,5 +1,5 @@
 package tp3.ejercicioNivelEnergia;
-//.
+
 public class PilaNivel {
     private int MAX = 30;
     private int[] nivelEnergia;
