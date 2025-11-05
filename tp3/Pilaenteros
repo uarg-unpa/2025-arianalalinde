@@ -1,6 +1,6 @@
 
     public class Pilaenteros{
-    private int [] elementos; // array para almacenar los elementos
+    private int [] elementos; // array para almacenar los elementos.
     private int cima;
     private final int MAX =10; // Capacidad maxima de la cima
 

@@ -15,7 +15,7 @@ public class PilaEnteros {
         return cima == -1;
     }
 
-    // --- Verifica si la pila está llena ---
+    // --- Verifica si la pila está llena --
     public boolean estaLlena() {
         return cima == MAX - 1;
     }
