@@ -18,42 +18,20 @@ public class PilaNivel {
         return cima == -1;
     }
 
-    public void mostrar() {
-    if (estaVacia()) {
-        System.out.println("Pila vacía");
-    } else {
-        PilaNivel auxVer = new PilaNivel();
-        while (!estaVacia()) {
-            int ver = sacar(); // saco del tope
-            System.out.println(ver);
-            auxVer.meter(ver);
-        }
-        // Restaurar la pila
-        while (!auxVer.estaVacia()) {
-            meter(auxVer.sacar());
-        }
-    }
+
+  public void meter(int e) {
+    cima++;
+    nivelEnergia[cima] = e;
 }
 
 
-    public void meter(int e) {
-        if (!estaLlena()) {
-            cima++;
-            nivelEnergia[cima] = e;
-        }
-    }
-
     public int sacar() {
-        if (!estaVacia()) {
-            int aux = nivelEnergia[cima];
-            cima--;
-            return aux;
-        } else {
-            return -1;
-        }
+       int aux = nivelEnergia[cima];
+       cima--;
+       return aux;
     }
 
-    public int ContX(int x){
+    public int contX(int x){
         int contador = 0;
         PilaNivel Aux = new PilaNivel();
 

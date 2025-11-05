@@ -17,7 +17,6 @@ public class MenuPilaNivel {
             System.out.println("1. Ingresar niveles de energía");
             System.out.println("2. Mostrar nivel superior");
             System.out.println("3. Contador de nivel repetido");
-            System.out.println("4. Mostrar todos los niveles");
             System.out.println("0. Salir");
             System.out.print("Seleccione una opción: ");
             opcion = sc.nextInt();
@@ -53,15 +52,12 @@ public class MenuPilaNivel {
                     } else {
                         System.out.print("Ingrese el nivel a buscar: ");
                         int nivelX = sc.nextInt();
-                        int contador = pila.ContX(nivelX);
+                        int contador = pila.contX(nivelX);
                         System.out.println("El nivel " + nivelX + " aparece " + contador + " veces en la pila.");
                     }
                     break;
 
-                case 4:
-                    System.out.println("Niveles de energía actuales:");
-                    pila.mostrar();
-                    break;
+        
 
                 case 0:
                     System.out.println("Saliendo del menú...");
