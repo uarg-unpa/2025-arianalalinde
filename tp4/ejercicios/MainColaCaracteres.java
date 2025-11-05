@@ -2,6 +2,7 @@ package tp4.ejercicios;
 
 import java.util.Scanner;
 
+//.
 public class MainColaCaracteres {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);

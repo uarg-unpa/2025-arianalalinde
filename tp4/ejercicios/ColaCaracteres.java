@@ -1,5 +1,5 @@
 package tp4.ejercicios;
-
+//.
 public class ColaCaracteres {
     private char[] elementos;
     private int frente, fin;
@@ -34,24 +34,19 @@ public class ColaCaracteres {
     }
 
     public char peek() {
-        if (!estaVacia()) {
             return elementos[frente];
-        }
-        else {
-            return null;
-        }
     }
 
-    @Override
-    public String toString() {
-        String texto = "Cola: ";
-        if (estaVacia()) {
-            texto = texto + "(vacía)";
-        } else {
-            for (int i = 0; i < fin; i++) {
-                texto = texto + elementos[i];
-            }
+  @Override
+public String toString() {
+    String texto = "Cola: ";
+    if (estaVacia()) {
+        texto += "(vacía)";
+    } else {
+        for (int i = frente; i <= fin; i++) {
+            texto += elementos[i] + " ";
         }
-        return texto;
     }
+    return texto;
+ }
 }

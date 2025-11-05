@@ -1,5 +1,6 @@
 package tp4.ejercicios;
 
+//circular.
 public class ColaNombres {
     private String[] elementos; 
     private int frente;         

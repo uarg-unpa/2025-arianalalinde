@@ -1,6 +1,7 @@
 package tp4.ejercicios;
 
 import java.util.Scanner;
+//.
 
 public class MainColaNombres {
     public static void main(String[] args) {
